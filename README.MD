@@ -10,7 +10,8 @@ wget https://github.com/phu2007vis/Paddle_Binary_Detection/releases/download/sds
 unzip det_r50_icdar15_v5.zip
 cd ..
 ```
-# Replace weight path in tempate.yaml  (best_accuracy instead of best_accuracy.pdparams)
+# Replace weight path in tempate.yaml
+## (use best_accuracy instead of best_accuracy.pdparams)
 # Test ( result save in visualize.jpg)
 
 ![plot](images/visualize.jpg)
