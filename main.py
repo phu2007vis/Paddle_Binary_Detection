@@ -7,9 +7,9 @@ sys.path.append(os.path.abspath(os.path.dirname(__file__)))
 from utils import load_config,load_model,visualize
 from processing.postprocessing import DBPostProcess
 from processing.preprocessing import PrePrecessing
-from resnet import ResNet
-from dbfpn_neck import DBFPN
-from db_head import DBHead
+from model_layers.resnet import ResNet
+from model_layers.dbfpn_neck import DBFPN
+from model_layers.db_head import DBHead
 from paddle import nn
 import cv2
 import paddle

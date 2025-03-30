@@ -1,1 +1,4 @@
 __pycache__
+weights
+*.zip
+det_r50_icdar15_v5

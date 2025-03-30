@@ -1,5 +1,5 @@
 Global:
-  pretrained_model: /work/21013187/phuoc/paddle_detect//output/det_r50_icdar15_v5/best_accuracy
+  pretrained_model:  det_r50_icdar15_v5/best_accuracy
   checkpoints: null
 
 Preprocessing:
