@@ -1,6 +1,6 @@
 # Text Binary Detection Paddle
 ![plot](images/db_net.png)
-# requirements
+# Requirements
 paddlepaddle==3.0.0rc1
 # Download weight 
 ```bash
@@ -13,5 +13,7 @@ cd ..
 # Replace weight path in tempate.yaml
 
 # Test ( result save in visualize.jpg)
-
+```bash
+python main.py
+```
 ![plot](images/visualize.jpg)
