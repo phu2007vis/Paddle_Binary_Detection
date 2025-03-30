@@ -1,6 +1,6 @@
 # Text Binary Detection Paddle
-
+![plot](images/db_net.png)
 # requirements
-Install paddlepaddle-gpu  or paddlepaddle version 3.0.0rc1
+paddlepaddle==3.0.0rc1
 
-![plot](/work/21013187/phuoc/paddle_detect/PaddleOCR/phuoc_module/visualize.jpg)
+![plot](images/visualize.jpg)
