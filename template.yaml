@@ -1,0 +1,44 @@
+Global:
+  pretrained_model: /work/21013187/phuoc/paddle_detect//output/det_r50_icdar15_v5/best_accuracy
+  checkpoints: null
+
+Preprocessing:
+  - Resize:
+        size:
+        - 640
+        - 640
+  - NormalizeImage:
+        scale: 1./255.
+        mean:
+        - 0.48109378172549
+        - 0.45752457890196
+        - 0.40787054090196
+        std:
+        - 1.0
+        - 1.0
+        - 1.0
+     
+
+PostProcess:
+  name: DBPostProcess
+  thresh: 0.15
+  box_thresh: 0.3
+  max_candidates: 1000
+  unclip_ratio: 1.5
+  det_box_type: 'quad' # 'quad' or 'poly'
+
+
+
+Architecture:
+  Backbone:
+    name: ResNet
+    in_channels: 3
+    layers: 50
+    dcn_stage: [False, True, True, True]
+  Neck:
+    name: DBFPN
+    out_channels: 256
+    use_asf: True
+  Head:
+    name: DBHead
+    k: 50
