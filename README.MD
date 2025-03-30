@@ -11,7 +11,7 @@ unzip det_r50_icdar15_v5.zip
 cd ..
 ```
 # Replace weight path in tempate.yaml
-## (use best_accuracy instead of best_accuracy.pdparams)
+
 # Test ( result save in visualize.jpg)
 
 ![plot](images/visualize.jpg)
