@@ -1,3 +1,7 @@
+#TODO
+1. Trainning scripts
+2. SAHI for large scale detection
+3. Scrip for text generation
 # Text Binary Detection Paddle
 ![plot](images/db_net.png)
 # Requirements
